@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="home.svg">icons/home.svg</file>
+        <file alias="expand.svg">icons/expand.svg</file>
+        <file alias="settings.svg">icons/settings.svg</file>
+    </qresource>
+    <qresource prefix="/settings">
+        <file alias="qr.png">assets/settings/qr.png</file>
+        <file alias="character_body.png">assets/settings/character_body.png</file>
+        <file alias="character_legs.png">assets/settings/character_legs.png</file>
+    </qresource>
+</RCC>

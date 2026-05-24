@@ -1,0 +1,27 @@
+{
+	"BUILD_DIR" : "M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/cmake-build-debug/sai-record-youbai_autogen",
+	"CMAKE_BINARY_DIR" : "M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "M:/83.SAIPlus/art-timelapse-main/sai-record-youbai",
+	"CMAKE_SOURCE_DIR" : "M:/83.SAIPlus/art-timelapse-main/sai-record-youbai",
+	"INCLUDE_DIR" : "M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/cmake-build-debug/sai-record-youbai_autogen/include",
+	"INPUTS" : 
+	[
+		"M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/assets/settings/character_legs.png",
+		"M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/assets/settings/character_body.png",
+		"M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/assets/settings/qr.png",
+		"M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/icons/settings.svg",
+		"M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/icons/expand.svg",
+		"M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/icons/home.svg"
+	],
+	"LOCK_FILE" : "M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/cmake-build-debug/CMakeFiles/sai-record-youbai_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "C:/ProgramData/anaconda3/Library/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/cmake-build-debug/CMakeFiles/sai-record-youbai_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/resources.qrc",
+	"VERBOSITY" : 0
+}

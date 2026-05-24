@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-32d7304d6218a77cb7c4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sai-record-youbai",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "sai-record-youbai::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sai-record-youbai-Debug-85b9da6eddd72d2ed02a.json",
+					"name" : "sai-record-youbai",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sai-record-youbai_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sai-record-youbai_autogen-Debug-3c3ba7acc6a96f1595e2.json",
+					"name" : "sai-record-youbai_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sai-record-youbai_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sai-record-youbai_autogen_timestamp_deps-Debug-f5385d8e46f5fc8efa2b.json",
+					"name" : "sai-record-youbai_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/cmake-build-debug",
+		"source" : "M:/83.SAIPlus/art-timelapse-main/sai-record-youbai"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

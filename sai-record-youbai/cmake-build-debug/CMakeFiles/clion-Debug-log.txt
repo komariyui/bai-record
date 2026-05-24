@@ -1,0 +1,4 @@
+"C:\appinstall\CLion 2022.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/appinstall/CLion 2022.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S M:\83.SAIPlus\art-timelapse-main\sai-record-youbai -B M:\83.SAIPlus\art-timelapse-main\sai-record-youbai\cmake-build-debug
+-- Configuring done (1.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/cmake-build-debug

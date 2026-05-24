@@ -1,0 +1,204 @@
+{
+	"BUILD_DIR" : "M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/cmake-build-debug/sai-record-youbai_autogen",
+	"CMAKE_BINARY_DIR" : "M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "M:/83.SAIPlus/art-timelapse-main/sai-record-youbai",
+	"CMAKE_EXECUTABLE" : "C:/appinstall/CLion 2022.2/bin/cmake/win/x64/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/CMakeLists.txt",
+		"M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/cmake-build-debug/CMakeFiles/3.26.4/CMakeSystem.cmake",
+		"C:/appinstall/CLion 2022.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake",
+		"M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/cmake-build-debug/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake",
+		"C:/appinstall/CLion 2022.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake",
+		"C:/appinstall/CLion 2022.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake",
+		"C:/appinstall/CLion 2022.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake",
+		"C:/appinstall/CLion 2022.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake",
+		"C:/appinstall/CLion 2022.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake",
+		"C:/appinstall/CLion 2022.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake",
+		"C:/appinstall/CLion 2022.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake",
+		"C:/appinstall/CLion 2022.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake",
+		"C:/appinstall/CLion 2022.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake",
+		"C:/appinstall/CLion 2022.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"C:/appinstall/CLion 2022.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake",
+		"C:/appinstall/CLion 2022.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake",
+		"M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/cmake-build-debug/CMakeFiles/3.26.4/CMakeRCCompiler.cmake",
+		"C:/appinstall/CLion 2022.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake",
+		"C:/appinstall/CLion 2022.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake",
+		"C:/appinstall/CLion 2022.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
+		"C:/appinstall/CLion 2022.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5/Qt5Config.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5/Qt5Config.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"C:/appinstall/CLion 2022.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeParseArguments.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Gui/Qt5Gui_QPdfPlugin.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"C:/appinstall/CLion 2022.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeParseArguments.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Svg/Qt5SvgConfigVersion.cmake",
+		"C:/ProgramData/anaconda3/Library/lib/cmake/Qt5Svg/Qt5SvgConfig.cmake",
+		"C:/appinstall/CLion 2022.2/bin/cmake/win/x64/share/cmake-3.26/Modules/GNUInstallDirs.cmake",
+		"M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/resources.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "M:/83.SAIPlus/art-timelapse-main/sai-record-youbai",
+	"DEP_FILE" : "M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/cmake-build-debug/sai-record-youbai_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "sai-record-youbai_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/mouselistener.h",
+			"MU",
+			"EWIEGA46WW/moc_mouselistener.cpp",
+			null
+		],
+		[
+			"M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/remoteptr.h",
+			"MU",
+			"EWIEGA46WW/moc_remoteptr.cpp",
+			null
+		],
+		[
+			"M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/sai_record_widget.h",
+			"MU",
+			"EWIEGA46WW/moc_sai_record_widget.cpp",
+			null
+		],
+		[
+			"M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/saiengine.h",
+			"MU",
+			"EWIEGA46WW/moc_saiengine.cpp",
+			null
+		],
+		[
+			"M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/settings.h",
+			"MU",
+			"EWIEGA46WW/moc_settings.cpp",
+			null
+		],
+		[
+			"M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/videowriter.h",
+			"MU",
+			"EWIEGA46WW/moc_videowriter.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/cmake-build-debug/sai-record-youbai_autogen/include",
+	"MOC_COMPILATION_FILE" : "M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/cmake-build-debug/sai-record-youbai_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_SVG_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"C:/ProgramData/anaconda3/Library/include/qt",
+		"C:/ProgramData/anaconda3/Library/include/qt/QtWidgets",
+		"C:/ProgramData/anaconda3/Library/include/qt/QtGui",
+		"C:/ProgramData/anaconda3/Library/include/qt/QtANGLE",
+		"C:/ProgramData/anaconda3/Library/include/qt/QtCore",
+		"C:/ProgramData/anaconda3/Library/mkspecs/win32-msvc",
+		"C:/ProgramData/anaconda3/Library/include/qt/QtSvg",
+		"C:/appinstall/CLion 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++",
+		"C:/appinstall/CLion 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32",
+		"C:/appinstall/CLion 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward",
+		"C:/appinstall/CLion 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
+		"C:/appinstall/CLion 2022.2/bin/mingw/include",
+		"C:/appinstall/CLion 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed",
+		"C:/appinstall/CLion 2022.2/bin/mingw/x86_64-w64-mingw32/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"C:/appinstall/CLion 2022.2/bin/mingw/bin/g++.exe",
+		"-dM",
+		"-E",
+		"-c",
+		"C:/appinstall/CLion 2022.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/cmake-build-debug/sai-record-youbai_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/cmake-build-debug/CMakeFiles/sai-record-youbai_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "C:/ProgramData/anaconda3/Library/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "C:/ProgramData/anaconda3/Library/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/cmake-build-debug/CMakeFiles/sai-record-youbai_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/mouselistener.cpp",
+			"MU",
+			null
+		],
+		[
+			"M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/sai_record_widget.cpp",
+			"MU",
+			null
+		],
+		[
+			"M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/saiengine.cpp",
+			"MU",
+			null
+		],
+		[
+			"M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/settings.cpp",
+			"MU",
+			null
+		],
+		[
+			"M:/83.SAIPlus/art-timelapse-main/sai-record-youbai/videowriter.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

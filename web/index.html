@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>由白记录 - BAI Record</title>
+  <style>
+    :root {
+      --ink: #444444;
+      --muted: #959595;
+      --field: #f8f8f8;
+      --panel: #f6f5f5;
+      --shadow-main:
+        5px 13px 30px rgba(176, 176, 176, 0.10),
+        20px 50px 53px rgba(176, 176, 176, 0.09),
+        44px 112px 73px rgba(176, 176, 176, 0.05),
+        80px 200px 86px rgba(176, 176, 176, 0.01);
+      --shadow-soft:
+        4px 10px 23px rgba(176, 176, 176, 0.10),
+        15px 38px 41px rgba(176, 176, 176, 0.09),
+        34px 86px 56px rgba(176, 176, 176, 0.05),
+        61px 153px 66px rgba(176, 176, 176, 0.01);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      overflow-x: hidden;
+      background: #ffffff;
+      color: var(--ink);
+      font-family: Inter, "Microsoft YaHei UI", "Noto Sans SC", "PingFang SC", Arial, sans-serif;
+    }
+
+    .page {
+      width: min(100vw, 1920px);
+      aspect-ratio: 1920 / 2155;
+      min-height: 760px;
+      margin: 0 auto;
+      position: relative;
+      isolation: isolate;
+      overflow: hidden;
+      background: #ffffff;
+    }
+
+    .title {
+      position: absolute;
+      top: 10.25%;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      z-index: 5;
+    }
+
+    .title h1 {
+      margin: 0;
+      font-size: clamp(18px, 1.63vw, 31px);
+      line-height: 1.2;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .title p {
+      margin: 1.05vw 0 0;
+      color: var(--muted);
+      font-size: clamp(13px, 1.18vw, 23px);
+      line-height: 1.2;
+    }
+
+    .title small {
+      display: block;
+      margin-top: 2.65vw;
+      color: var(--muted);
+      font-size: clamp(8px, .79vw, 15px);
+      line-height: 1.2;
+    }
+
+    .sai-shot {
+      position: absolute;
+      left: 8.8%;
+      top: 35.13%;
+      width: 19%;
+      aspect-ratio: 365 / 264;
+      box-shadow: var(--shadow-main);
+      background: #ffffff;
+    }
+
+    .sai-shot img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+
+    .connector {
+      position: absolute;
+      left: 27.8%;
+      top: 41.82%;
+      width: 7.9%;
+      height: 1px;
+      background: #7d7d7d;
+    }
+
+    .connector::after {
+      content: "";
+      position: absolute;
+      right: -4px;
+      top: -3px;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #7d7d7d;
+    }
+
+    .group-five-main {
+      position: absolute;
+      left: 8.8%;
+      top: 17.12%;
+      width: clamp(860px, 94.55vw, 1815px);
+      max-width: calc(100% - 42px);
+      aspect-ratio: 1815.35 / 1091.15;
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    .group-five-main img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: contain;
+    }
+
+    .app-panel {
+      position: absolute;
+      left: 35.78%;
+      top: 24.36%;
+      width: 58.39%;
+      height: 33.13%;
+      overflow: hidden;
+      background: var(--panel);
+      box-shadow: var(--shadow-main);
+    }
+
+    .watermark {
+      position: absolute;
+      left: 8.5%;
+      top: 6.4%;
+      color: rgba(0, 0, 0, .05);
+      font-size: clamp(84px, 14.5vw, 279px);
+      font-weight: 700;
+      line-height: 1;
+      transform: rotate(-27.83deg);
+      transform-origin: 50% 50%;
+      user-select: none;
+    }
+
+    .side-nav {
+      position: absolute;
+      left: 1.85%;
+      top: 39.6%;
+      width: 4.45%;
+      height: 17.55%;
+      background: #ffffff;
+      box-shadow:
+        4px 9px 21px rgba(176, 176, 176, 0.10),
+        14px 35px 38px rgba(176, 176, 176, 0.09),
+        31px 79px 51px rgba(176, 176, 176, 0.05),
+        56px 140px 60px rgba(176, 176, 176, 0.01);
+      display: grid;
+      place-items: center;
+      padding: 13% 0;
+      gap: 8%;
+      z-index: 4;
+    }
+
+    .side-nav button {
+      width: 52%;
+      aspect-ratio: 1;
+      border: 0;
+      padding: 0;
+      background: transparent;
+      cursor: pointer;
+    }
+
+    .side-nav button:hover {
+      filter: brightness(.86);
+    }
+
+    .side-nav img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .status-bar {
+      position: absolute;
+      left: 2.85%;
+      right: 2.45%;
+      bottom: 5.5%;
+      height: 10.4%;
+      background: rgba(255, 255, 255, .96);
+      box-shadow: var(--shadow-soft);
+      z-index: 5;
+    }
+
+    .status-grid {
+      height: 100%;
+      padding: 1.1% 1%;
+      display: grid;
+      grid-template-columns: 2.8fr 1.45fr 1.45fr .95fr 2.7fr;
+      column-gap: 1.75%;
+      align-items: center;
+    }
+
+    .field {
+      min-width: 0;
+    }
+
+    .field-title {
+      margin-bottom: .65vw;
+      color: #3b3b3b;
+      font-size: clamp(8px, .57vw, 11px);
+      font-weight: 700;
+      line-height: 1.2;
+      white-space: nowrap;
+    }
+
+    .field-box {
+      height: clamp(24px, 1.85vw, 36px);
+      background: var(--field);
+    }
+
+    .record .field-title {
+      text-align: center;
+    }
+
+    .record-button {
+      height: clamp(24px, 1.85vw, 36px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: .75vw;
+      background: var(--field);
+      color: #000000;
+      font-size: clamp(8px, .57vw, 11px);
+      border: 0;
+      cursor: pointer;
+    }
+
+    .record-dot {
+      width: clamp(5px, .45vw, 9px);
+      height: clamp(5px, .45vw, 9px);
+      border-radius: 999px;
+      background: #ff5454;
+      box-shadow: 0 0 0 5px rgba(255, 84, 84, .12);
+    }
+
+    .character {
+      position: absolute;
+      left: 34.6%;
+      top: 16.8%;
+      width: 68%;
+      height: 50.7%;
+      z-index: 3;
+      pointer-events: none;
+      transform: rotate(-7.97deg);
+      transform-origin: 48% 48%;
+    }
+
+    .character .people {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      -webkit-mask-image: url("https://www.figma.com/api/mcp/asset/2534aa9c-d9a6-40df-80db-713bccb8122b");
+      mask-image: url("https://www.figma.com/api/mcp/asset/2534aa9c-d9a6-40df-80db-713bccb8122b");
+      -webkit-mask-repeat: no-repeat;
+      mask-repeat: no-repeat;
+      -webkit-mask-size: 140% 112%;
+      mask-size: 140% 112%;
+      -webkit-mask-position: 50% 35%;
+      mask-position: 50% 35%;
+    }
+
+    .character .leg {
+      position: absolute;
+      left: 7%;
+      top: 0;
+      width: 91%;
+      height: 86%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .download-card {
+      position: absolute;
+      left: 20.78%;
+      top: 66.08%;
+      width: 58.85%;
+      height: 7.56%;
+      border: 1px solid #cccccc;
+      background: #ffffff;
+      box-shadow: var(--shadow-main);
+      z-index: 5;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      padding: 0 3.65% 0 4.25%;
+    }
+
+    .product-name {
+      font-size: clamp(13px, 1.14vw, 22px);
+      font-weight: 700;
+      line-height: 1.2;
+      white-space: nowrap;
+    }
+
+    .version {
+      margin-top: .35vw;
+      color: #9d9d9d;
+      font-size: clamp(9px, .73vw, 14px);
+      line-height: 1.2;
+    }
+
+    .download {
+      color: var(--ink);
+      text-decoration: none;
+      font-size: clamp(13px, 1.14vw, 22px);
+      font-weight: 700;
+      line-height: 1.2;
+      padding: .8rem 1rem;
+    }
+
+    .download:hover {
+      color: #000000;
+    }
+
+    @media (max-width: 760px) {
+      .page {
+        width: 100vw;
+        min-height: 100vh;
+        aspect-ratio: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 26px;
+        overflow-x: hidden;
+        overflow-y: visible;
+        padding: 64px 18px 42px;
+      }
+
+      .title {
+        position: relative;
+        padding: 0 24px;
+        top: auto;
+        left: auto;
+        width: auto;
+      }
+
+      .title h1 {
+        font-size: clamp(22px, 6.2vw, 30px);
+      }
+
+      .title p {
+        margin-top: 10px;
+        font-size: clamp(13px, 3.6vw, 17px);
+      }
+
+      .title small {
+        margin-top: 18px;
+        font-size: 11px;
+      }
+
+      .group-five-main {
+        position: relative;
+        left: 50%;
+        top: auto;
+        width: clamp(360px, 118vw, 760px);
+        max-width: none;
+        transform: translateX(-50%);
+        flex: 0 0 auto;
+        margin: 10px 0 0;
+      }
+
+      .download-card {
+        position: relative;
+        left: auto;
+        top: auto;
+        bottom: auto;
+        width: 100%;
+        min-height: 102px;
+        height: auto;
+        padding: 22px 24px;
+        grid-template-columns: 1fr;
+        gap: 18px;
+      }
+
+      .product-name {
+        white-space: normal;
+        font-size: 17px;
+      }
+
+      .version {
+        margin-top: 8px;
+        font-size: 12px;
+      }
+
+      .download {
+        justify-self: start;
+        padding: 0;
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page" aria-label="由白记录产品展示">
+    <header class="title">
+      <h1>由白记录 ——记录你的创作过程</h1>
+      <p>BAI Record ——Document your creative process</p>
+      <small>现支持 SAI SAI2 记录</small>
+    </header>
+
+    <figure class="group-five-main" aria-label="BAI Record 应用主视觉">
+      <img src="./Group%205.png" alt="">
+    </figure>
+
+    <section class="download-card" aria-label="下载">
+      <div>
+        <div class="product-name">由白记录 ——BAI Record for windows</div>
+        <div class="version">version 0.1.0</div>
+      </div>
+      <a class="download" href="#" aria-label="下载由白记录">下载</a>
+    </section>
+  </main>
+</body>
+</html>
