@@ -4,4 +4,4 @@
  
 现支持 SAI SAI2 记录
 
-![Group 5.png](https://foruda.gitee.com/images/1779630143803590968/a835e34f_2068681.png)
+<img width="2678" height="1734" alt="Group 5" src="https://github.com/user-attachments/assets/e9ba214e-9871-4a5f-bb02-361b6a7e2724" />
